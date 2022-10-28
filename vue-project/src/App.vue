@@ -3,9 +3,10 @@
 //import My_second from "./components/My_second.vue";
 import My_array from "./components/My_array.vue";
 import My_vars from "./components/Vars/My_vars.vue";
+import RefReactive from "./components/Vars/RefReactive.vue";
 
 export default {
-  components: { My_array, My_vars },
+  components: { RefReactive, My_array },
 };
 </script>
 <template>
@@ -19,7 +20,7 @@ export default {
     />
 
     <div class="wrapper"></div>
-    <div><My_vars></My_vars></div>
+    <div><RefReactive></RefReactive></div>
   </header>
 
   <main><My_array></My_array></main>
